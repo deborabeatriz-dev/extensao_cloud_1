@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extensão Cloud - Cadastro</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div>
+        <h1>Cadastro</h1>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="telefone" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+        
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+        
+        <button id="registerButton">Cadastrar</button>
+    </div>
+    <br>
+    <div>
+        Já tem uma conta? Faça o login
+        <button onclick="window.location.href = '/login'">Logar</button>
+    </div>
+
+    <script src="/scripts/script.js"></script>
+</body>
+</html>
